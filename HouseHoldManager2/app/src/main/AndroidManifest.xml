@@ -19,6 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".accountActivity.LoginActivity" />
+        <activity android:name=".accountActivity.RegisterActivity" />
+        <activity android:name=".accountActivity.ResetPasswordActivity"></activity>
     </application>
 
 </manifest>
