@@ -24,7 +24,12 @@
         <activity android:name=".accountActivity.ResetPasswordActivity" />
         <activity
             android:name=".Tasks"
+<<<<<<< HEAD
             android:label="@string/title_activity_tasks"></activity>
+=======
+            android:label="@string/title_activity_tasks" />
+        <activity android:name=".newtask"></activity>
+>>>>>>> 6ef07eb6bd6885c02bb01a30db4bfdcbed8b7b99
     </application>
 
 </manifest>
