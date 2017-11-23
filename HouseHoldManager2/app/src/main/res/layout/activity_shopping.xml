@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical">
 
     <LinearLayout
-        android:layout_width="368dp"
-        android:layout_height="495dp"
-        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp"
-        tools:ignore="MissingConstraints">
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -33,13 +35,14 @@
                 android:background="#EEEEEE"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="      Quick Access" />
+                android:text=" Quick access" />
 
         </LinearLayout>
 
         <TabHost
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@android:color/background_light">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -49,7 +52,8 @@
                 <TabWidget
                     android:id="@android:id/tabs"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/background_light" />
 
                 <FrameLayout
                     android:id="@android:id/tabcontent"
@@ -60,6 +64,7 @@
                         android:id="@+id/Shopping"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:background="@android:color/background_light"
                         android:orientation="vertical">
 
                         <FrameLayout

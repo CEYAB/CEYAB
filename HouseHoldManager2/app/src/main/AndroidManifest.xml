@@ -22,14 +22,15 @@
         <activity android:name=".accountActivity.LoginActivity" />
         <activity android:name=".accountActivity.RegisterActivity" />
         <activity android:name=".accountActivity.ResetPasswordActivity" />
-        <activity
-            android:name=".Tasks"
-<<<<<<< HEAD
-            android:label="@string/title_activity_tasks"></activity>
-=======
-            android:label="@string/title_activity_tasks" />
-        <activity android:name=".newtask"></activity>
->>>>>>> 6ef07eb6bd6885c02bb01a30db4bfdcbed8b7b99
+        <activity android:name=".Settings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".schedule" />
     </application>
 
 </manifest>

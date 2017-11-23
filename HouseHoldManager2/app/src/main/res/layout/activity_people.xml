@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#EEEEEE"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
@@ -22,9 +24,10 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
+            android:background="#EEEEEE"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="     Quick access"
+            android:text=" Quick access"
             android:textSize="18sp" />
     </LinearLayout>
 
@@ -43,7 +46,7 @@
                 android:id="@android:id/tabs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="?android:attr/detailsElementBackground"
+                android:background="@android:color/background_light"
                 android:clickable="false"
                 android:visibility="visible" />
 
@@ -56,6 +59,7 @@
                     android:id="@+id/people"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@android:color/background_light"
                     android:orientation="horizontal">
 
                     <LinearLayout
@@ -98,8 +102,7 @@
                                 android:inputType="textMultiLine"
                                 android:maxLines="3"
                                 android:singleLine="false"
-                                android:text="me                                   Allocated tasks: 2             next task: none"
-                                android:textStyle="bold" />
+                                android:text="me                                   Allocated tasks: 2             next task: none" />
 
                             <EditText
                                 android:id="@+id/editText9"
@@ -108,8 +111,7 @@
                                 android:layout_weight="1"
                                 android:ems="10"
                                 android:inputType="textMultiLine"
-                                android:text="Sam                                   Allocated tasks: 1             next task: wash dishes"
-                                android:textStyle="bold" />
+                                android:text="Sam                                   Allocated tasks: 1             next task: wash dishes" />
                         </LinearLayout>
 
                         <LinearLayout
