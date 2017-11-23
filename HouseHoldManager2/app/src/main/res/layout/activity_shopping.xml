@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="ca.uottawa.householdmanager.MenuActivity"
-    tools:showIn="@layout/app_bar_menu">
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="368dp"
@@ -23,7 +19,7 @@
 
 
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/imageButton4"
                 android:layout_width="80dp"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
@@ -73,21 +69,20 @@
 
 
                             <LinearLayout
-                                android:id="@+id/ShoppingList"
+                                android:id="@+id/Shopping list"
                                 android:layout_width="fill_parent"
                                 android:layout_height="fill_parent"
                                 android:orientation="vertical"
                                 android:weightSum="1">
 
                                 <EditText
-                                    android:id="@+id/ShoppingList"
+                                    android:id="@+id/Shopping list"
                                     android:layout_width="fill_parent"
                                     android:layout_height="60dp"
                                     android:ems="10"
                                     android:inputType="textPersonName"
                                     android:text="Shopping list"
-                                    android:textColor="@android:color/background_light"
-                                    tools:ignore="DuplicateIds" />
+                                    android:textColor="@android:color/background_light" />
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -108,7 +103,7 @@
                                             android:text="Lettuce" />
 
                                         <CheckBox
-                                            android:id="@+id/orangeJuice"
+                                            android:id="@+id/orange juice"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
                                             android:layout_weight="1"
@@ -144,7 +139,7 @@
                                         android:orientation="vertical">
 
                                         <CheckBox
-                                            android:id="@+id/toiletPaper"
+                                            android:id="@+id/toilet paper"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
                                             android:layout_weight="1"

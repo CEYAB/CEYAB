@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_dialog_dialer" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="     Quick access"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/detailsElementBackground"
+                android:clickable="false"
+                android:visibility="visible" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/people"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="180dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="fill_parent"
+                            android:layout_height="90dp"
+                            android:layout_weight="0.56"
+                            app:srcCompat="@drawable/mojere" />
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="fill_parent"
+                            android:layout_height="90dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/hombre" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="180dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="250dp"
+                            android:layout_height="fill_parent"
+                            android:orientation="vertical">
+
+                            <EditText
+                                android:id="@+id/editText10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="90dp"
+                                android:layout_weight="1"
+                                android:ems="10"
+                                android:inputType="textMultiLine"
+                                android:maxLines="3"
+                                android:singleLine="false"
+                                android:text="me                                   Allocated tasks: 2             next task: none"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/editText9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="90dp"
+                                android:layout_weight="1"
+                                android:ems="10"
+                                android:inputType="textMultiLine"
+                                android:text="Sam                                   Allocated tasks: 1             next task: wash dishes"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/imageButton8"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                app:srcCompat="?android:attr/floatingToolbarOpenDrawable" />
+
+                            <ImageButton
+                                android:id="@+id/imageButton7"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Tasks"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Shopping"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:srcCompat="@drawable/mojere" />
+
+</LinearLayout>
