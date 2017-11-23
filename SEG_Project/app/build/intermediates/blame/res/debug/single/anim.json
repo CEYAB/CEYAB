@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/user1/Desktop/SEG_Project/CEYAB/SEG_Project/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/user1/.android/build-cache/152c266ace9f4078bee832877b54f2531d04eb7b/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/user1/Desktop/SEG_Project/CEYAB/SEG_Project/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/user1/.android/build-cache/152c266ace9f4078bee832877b54f2531d04eb7b/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/user1/Desktop/SEG_Project/CEYAB/SEG_Project/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/user1/.android/build-cache/fa8825c08b936396586420a3f84e20145ccfc2bf/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/user1/Desktop/SEG_Project/CEYAB/SEG_Project/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/user1/.android/build-cache/fa8825c08b936396586420a3f84e20145ccfc2bf/output/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/user1/Desktop/SEG_Project/CEYAB/SEG_Project/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/user1/.android/build-cache/152c266ace9f4078bee832877b54f2531d04eb7b/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/user1/Desktop/SEG_Project/CEYAB/SEG_Project/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/user1/.android/build-cache/152c266ace9f4078bee832877b54f2531d04eb7b/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/user1/Desktop/SEG_Project/CEYAB/SEG_Project/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/user1/.android/build-cache/152c266ace9f4078bee832877b54f2531d04eb7b/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/user1/Desktop/SEG_Project/CEYAB/SEG_Project/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/user1/.android/build-cache/fa8825c08b936396586420a3f84e20145ccfc2bf/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/user1/Desktop/SEG_Project/CEYAB/SEG_Project/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/user1/.android/build-cache/152c266ace9f4078bee832877b54f2531d04eb7b/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/user1/Desktop/SEG_Project/CEYAB/SEG_Project/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/user1/.android/build-cache/fa8825c08b936396586420a3f84e20145ccfc2bf/output/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/user1/Desktop/SEG_Project/CEYAB/SEG_Project/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/user1/.android/build-cache/152c266ace9f4078bee832877b54f2531d04eb7b/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/user1/Desktop/SEG_Project/CEYAB/SEG_Project/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/user1/.android/build-cache/152c266ace9f4078bee832877b54f2531d04eb7b/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/user1/Desktop/SEG_Project/CEYAB/SEG_Project/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/user1/.android/build-cache/152c266ace9f4078bee832877b54f2531d04eb7b/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/user1/Desktop/SEG_Project/CEYAB/SEG_Project/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/user1/.android/build-cache/152c266ace9f4078bee832877b54f2531d04eb7b/output/res/anim/abc_slide_out_top.xml"
+    }
+]

@@ -68,24 +68,118 @@
                         <FrameLayout
                             android:layout_width="fill_parent"
                             android:layout_height="300dp"
-                            android:background="@android:drawable/alert_dark_frame">
+                            android:background="@android:color/darker_gray">
 
 
                             <LinearLayout
                                 android:id="@+id/Shopping list"
-                                android:layout_width="match_parent"
-                                android:layout_height="40dp"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
                                 android:orientation="vertical"
                                 android:weightSum="1">
 
                                 <EditText
                                     android:id="@+id/Shopping list"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="60dp"
                                     android:ems="10"
                                     android:inputType="textPersonName"
                                     android:text="Shopping list"
                                     android:textColor="@android:color/background_light" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:orientation="vertical">
+
+                                        <CheckBox
+                                            android:id="@+id/checkBox19"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="Lettuce" />
+
+                                        <CheckBox
+                                            android:id="@+id/orange juice"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="orange juice" />
+
+                                        <CheckBox
+                                            android:id="@+id/peanuts"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="peanuts" />
+
+                                        <CheckBox
+                                            android:id="@+id/eggs"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="eggs" />
+
+                                        <CheckBox
+                                            android:id="@+id/sugar"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="sugar" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:orientation="vertical">
+
+                                        <CheckBox
+                                            android:id="@+id/toilet paper"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="toilet paper" />
+
+                                        <CheckBox
+                                            android:id="@+id/detergent"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="detergent" />
+
+                                        <CheckBox
+                                            android:id="@+id/lamp"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="lamp" />
+
+                                        <CheckBox
+                                            android:id="@+id/batteries"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="batteries" />
+
+                                        <CheckBox
+                                            android:id="@+id/glass"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="glass" />
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
                             </LinearLayout>
 
                         </FrameLayout>
@@ -96,18 +190,21 @@
                             android:orientation="horizontal">
 
                             <Button
-                                android:id="@+id/button4"
-                                android:layout_width="match_parent"
+                                android:id="@+id/+"
+                                android:layout_width="150dp"
                                 android:layout_height="fill_parent"
                                 android:layout_weight="1"
-                                android:text="Button" />
+                                android:background="@android:color/background_light"
+                                android:text="+"
+                                android:textSize="40sp" />
 
                             <TextView
                                 android:id="@+id/textView3"
-                                android:layout_width="wrap_content"
+                                android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="TextView" />
+                                android:text="New item"
+                                android:textSize="30sp" />
 
                         </LinearLayout>
 

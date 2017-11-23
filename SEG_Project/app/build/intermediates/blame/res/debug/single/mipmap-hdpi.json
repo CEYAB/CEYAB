@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/user1/Desktop/SEG_Project/CEYAB/SEG_Project/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/Users/user1/Desktop/SEG_Project/CEYAB/SEG_Project/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/user1/Desktop/SEG_Project/CEYAB/SEG_Project/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/user1/Desktop/SEG_Project/CEYAB/SEG_Project/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]
