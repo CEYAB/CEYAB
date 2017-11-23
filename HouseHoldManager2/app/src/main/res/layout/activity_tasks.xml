@@ -31,7 +31,7 @@
             app:srcCompat="@drawable/ic_add_circle_black_24dp" />
 
         <TextView
-            android:id="@+id/newitem"
+            android:id="@+id/newTask"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignBaseline="@+id/myTasksOnly"
@@ -41,7 +41,7 @@
             android:layout_toEndOf="@+id/imageButton3"
             android:layout_toRightOf="@+id/imageButton3"
             android:lineSpacingExtra="16sp"
-            android:text="  add new item"
+            android:text="new task"
             android:textAlignment="viewStart"
             android:textSize="16sp" />
 
@@ -100,7 +100,8 @@
             android:layout_below="@+id/textView"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Wash car" />
+            android:text="Wash car"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView7"
