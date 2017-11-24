@@ -59,12 +59,13 @@
                 android:text="Sam Tarly               send message"
                 android:textStyle="bold" />
 
-            <ImageView
-                android:id="@+id/imageView11"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:srcCompat="@android:drawable/sym_action_email" />
+                android:background="?android:attr/searchWidgetCorpusItemBackground"
+                app:srcCompat="@android:drawable/ic_dialog_email" />
 
         </LinearLayout>
     </LinearLayout>
