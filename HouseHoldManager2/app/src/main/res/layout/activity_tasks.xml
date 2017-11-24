@@ -21,15 +21,6 @@
             android:text="Only show my tasks"
             android:textSize="16sp" />
 
-        <ImageButton
-            android:id="@+id/imageButton3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/myTasksOnly"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            app:srcCompat="@drawable/ic_add_circle_black_24dp" />
-
         <TextView
 <<<<<<< HEAD
             android:id="@+id/newitem"
@@ -53,6 +44,15 @@
             android:textAlignment="viewStart"
             android:textSize="16sp" />
 
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/myTasksOnly"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            app:srcCompat="@drawable/ic_add_circle_black_24dp" />
+
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="80sp"
@@ -72,21 +72,49 @@
             android:layout_toStartOf="@+id/textView4"
             app:srcCompat="@drawable/mojere" />
 
-        <EditText
-            android:id="@+id/editText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/editText2"
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView3"
+            app:srcCompat="@drawable/boy" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView7"
+            app:srcCompat="@drawable/man" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView8"
+            app:srcCompat="@drawable/girl" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_alignTop="@+id/imageView2"
-            android:layout_marginLeft="10dp"
-            android:layout_marginStart="10dp"
             android:layout_toEndOf="@+id/imageView2"
             android:layout_toRightOf="@+id/imageView2"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Shopping"
-            android:textStyle="bold" />
+            android:orientation="horizontal"
+            android:layout_alignBottom="@+id/imageView9">
 
+<<<<<<< HEAD
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+=======
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
@@ -114,18 +142,94 @@
             android:text="Wash car"
             android:textStyle="bold" />
 >>>>>>> 6ef07eb6bd6885c02bb01a30db4bfdcbed8b7b99
+>>>>>>> 77f7f22038f164ad886e4ac71d1c70bbfc2376f2
 
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/imageView3"
-            android:layout_alignEnd="@+id/editText3"
-            android:layout_alignLeft="@+id/editText3"
-            android:layout_alignRight="@+id/editText3"
-            android:layout_alignStart="@+id/editText3"
-            android:layout_below="@+id/editText3"
-            android:text="Deadline:11-30-2017 8:00pm" />
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.09"
+                    android:text="Shopping"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.12"
+                    android:text="21 items in the list"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.11"
+                    android:text="Vacuum living room"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.09"
+                    android:text="Deadline:2017-12-25 8:00pm"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.11"
+                    android:text="wash dishes"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.08"
+                    android:text="Note:Urgent"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.09"
+                    android:text="wash car"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.12"
+                    android:text="Note:clean the inside too"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.11"
+                    android:text="throw the garbage"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.09"
+                    android:text="Note:Make sure to sort it"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </LinearLayout>
 
     </RelativeLayout>
 
