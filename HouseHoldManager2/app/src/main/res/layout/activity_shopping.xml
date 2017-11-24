@@ -84,10 +84,11 @@
                                     android:id="@+id/Shopping list"
                                     android:layout_width="fill_parent"
                                     android:layout_height="60dp"
+                                    android:background="@android:color/darker_gray"
                                     android:ems="10"
                                     android:inputType="textPersonName"
                                     android:text="Shopping list"
-                                    android:textColor="@android:color/background_light" />
+                                    android:textColor="@android:color/white" />
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
