@@ -10,10 +10,7 @@
         android:id="@+id/datePicker3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="4dp"
-        android:layout_marginRight="18dp"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="1.0" />
+        android:dayOfWeekTextAppearance="@style/24"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="4dp" />
 </android.support.constraint.ConstraintLayout>

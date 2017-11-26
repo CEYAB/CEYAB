@@ -13,7 +13,7 @@
             android:id="@+id/imageView11"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            app:srcCompat="@drawable/hombre" />
+            app:srcCompat="@drawable/manou" />
 
         <EditText
             android:id="@+id/editText2"
@@ -21,7 +21,7 @@
             android:layout_height="match_parent"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Sam Tarly" />
+            android:text="Dubinos" />
     </LinearLayout>
 
     <LinearLayout
@@ -31,21 +31,22 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="450dp">
+            android:layout_height="380dp">
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="fill_parent"
                 android:layout_height="380dp"
-                android:text="Write your message here"
-                android:textAlignment="center"
+                android:text="Hi , do you need any help with your tasks?"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/background_dark"
                 android:textSize="24sp" />
 
         </FrameLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
             android:orientation="horizontal">
 
             <Button

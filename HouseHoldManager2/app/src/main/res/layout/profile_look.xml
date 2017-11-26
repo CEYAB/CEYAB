@@ -41,7 +41,7 @@
             android:layout_width="80dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/hombre" />
+            app:srcCompat="@drawable/manou" />
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -56,7 +56,7 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Sam Tarly               send message"
+                android:text="Dubinos               send message"
                 android:textStyle="bold" />
 
             <ImageButton
@@ -101,10 +101,10 @@
                 android:layout_width="100dp"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:background="@android:drawable/ic_menu_manage"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
                 android:ems="10"
                 android:inputType="textMultiLine"
-                android:text="Do laundry :"
+                android:text="cleaning the kitchen"
                 android:textStyle="bold" />
 
             <EditText
@@ -114,7 +114,7 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Don't mix colours"
+                android:text="whipe the floor"
                 android:textColor="@android:color/darker_gray" />
 
             <CheckBox
@@ -134,10 +134,10 @@
                 android:layout_width="100dp"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:background="@android:drawable/ic_menu_manage"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
                 android:ems="10"
                 android:inputType="textMultiLine"
-                android:text="wash dishes :"
+                android:text="Do dishes"
                 android:textStyle="bold" />
 
             <EditText
